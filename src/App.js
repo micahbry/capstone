@@ -1,10 +1,14 @@
-import './App.css';
-
+import "./App.css";
+import Navbar from "./components/Navbar.Js";
+import Routing from "./components/Routing";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="App">
-      Home page
-    </div>
+    <>
+      <Navbar />
+      <Routing />
+      <Footer />
+    </>
   );
 }
 
